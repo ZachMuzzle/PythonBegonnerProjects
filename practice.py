@@ -1,11 +1,12 @@
 fruits = ["Apple", "Orange", "Grape"];
 input = int(input("Enter a number: "))
 for x in fruits:
-    print(x)
+    #print(x)
     if x == "Orange":
-        ##print(x)
+        #print(x)
         print("Hit Orange in loop")
         break
+    print(x)
 
 for x in range(input,10):
     print(x)
